@@ -4,7 +4,7 @@
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_djcjg"]
 shader = ExtResource("1_4r84q")
-shader_parameter/grid_size = Vector2(17.58, 15.355)
+shader_parameter/grid_size = Vector2(50, 100)
 shader_parameter/grid_color = Vector4(1, 1, 1, 1)
 shader_parameter/background_color = Vector4(0, 0, 0, 1)
 
