@@ -1,12 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://c28cb2dsk86xp"]
 
-[ext_resource type="Shader" path="res://shaders/canvas_bitwise_example.gdshader" id="1_4r84q"]
+[ext_resource type="Shader" path="res://shaders/canvas_style_guide.gdshader" id="1_78tej"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_djcjg"]
-shader = ExtResource("1_4r84q")
-shader_parameter/grid_size = Vector2(50, 100)
-shader_parameter/grid_color = Vector4(1, 1, 1, 1)
-shader_parameter/background_color = Vector4(0, 0, 0, 1)
+shader = ExtResource("1_78tej")
+shader_parameter/color = Color(1, 0.5, 0.5, 1)
+shader_parameter/amount = null
 
 [node name="Sandbox2d" type="Node2D"]
 
